@@ -1,8 +1,12 @@
 Eclipse Web-based IDE using Google's GWT.
 
-This work include Ian Bull's Hello World Example ported to GWT 1.7. It also
+This work includes Ian Bull's Hello World Example ported to GWT 1.7. It also
 includes an Eclipse launcher that runs the example in an Eclipse workbench.
 
 This is the start of the next phase of this project, building an IDE front-end
 using GWT UI and RPC code that interacts with core Eclipse components that
 we have today.
+
+BTW, if it isn't obvious. This is just a prototype of what could be possible
+with GWT and Eclipse. It's just for exploration and shouldn't be considered
+official or anything like that.
