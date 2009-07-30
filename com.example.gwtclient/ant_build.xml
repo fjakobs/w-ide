@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<project default="Build" basedir=".">
+	<property name="Module" value="com.example.StartingPoint"/>
+	<property name="OutputDir" value="www"/>
+	
+	<target name="Build">
+		<java classname="com.google.gwt.dev.Compiler" fork="yes" failonerror="true" maxmemory="512m"> 
+			<classpath>
+				<pathelement location="src" />
+				<pathelement location="../com.google.gwt/gwt-user.jar" />
+				<pathelement location="../com.google.gwt/gwt-dev-windows.jar" />
+			</classpath>
+			<arg value="-war"/>
+			<arg file="${OutputDir}"/>
+			<arg value="${Module}"/>
+		</java>
+	</target>
+
+	<target name="Clean">
+		<delete includeemptydirs="true" dir="${OutputDir}"/>
+	</target>
+
+</project>
