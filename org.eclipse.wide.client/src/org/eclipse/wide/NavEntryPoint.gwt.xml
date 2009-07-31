@@ -1,0 +1,7 @@
+<module>
+
+	<inherits name='com.google.gwt.user.User'/>
+	<source path='client/nav'/>
+	<entry-point class='org.eclipse.wide.client.nav.NavEntryPoint'/>
+  
+</module>

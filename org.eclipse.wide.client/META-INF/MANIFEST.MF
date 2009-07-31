@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: W-IDE Client
+Bundle-SymbolicName: org.eclipse.wide.client;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: com.google.gwt;bundle-version="1.7.0"
+Bundle-Vendor: Doug Schaefer
+Eclipse-RegisterBuddy: com.google.gwt

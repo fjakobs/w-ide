@@ -12,7 +12,7 @@
 			</classpath>
 			<arg value="-war"/>
 			<arg file="${OutputDir}"/>
-			<arg value="com.example.StartingPoint"/>
+			<arg value="org.eclipse.wide.NavEntryPoint"/>
 		</java>
 	</target>
 
